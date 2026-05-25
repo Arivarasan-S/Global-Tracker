@@ -1,0 +1,1504 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.overallbox{
+    min-height: 640px;
+    /* background-color: antiquewhite; */
+}
+nav{
+    
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menus{
+    display: none;
+}
+.navContant{
+    display: flex;
+    gap: 50px;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sign button{
+    width: 130px;
+    height: 36px;
+    border-radius:20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+header{
+    /* background-color: blue; */
+    background-image: url("./pngwing.com\ \(6\).png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+span{
+    color: orangered;
+    text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-thickness: 2px;
+}
+.fa-circle{
+    font-size: 6px;
+    
+}
+.arow{
+    width: 380px;
+    height: 100px;
+    position: absolute;
+    filter:saturate(6);
+    left: 150px;
+    bottom: 20px;
+    transform: rotate(36deg);
+}
+.arow1{
+    width: 480px;
+    height: 100px;
+    position: absolute;
+    filter:saturate(6);
+    left:-30px;
+    top: 40px;
+    transform: rotate(14deg);
+}
+.arow img{
+    width: 100%;
+    height: 100%;
+   
+}
+.gray{
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.icon{
+    width: 80%;
+    position: absolute;
+    font-size: 36px;
+    bottom: -40px;
+    /* left: 540px; */
+    text-align: center;
+    /* background-color: aqua; */
+    transform: rotate(26deg);
+}
+
+.headContant{
+    width: 40%;
+    /* background-color: rgb(24, 104, 77); */
+    padding: 60px 50px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+.headContant h1{
+    font-size: 58px;
+    width: 90%;
+}
+.headerImage{
+     width: 60%;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+}
+.headContant p{
+
+    font-size: 20px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.headContant button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: orangered;
+} 
+.headimg{
+    /* background-color: brown; */
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 80px;
+
+}
+.icon1{
+    position: absolute;
+    top: 50px;
+    transform: rotate(-60deg);
+}
+.himal{
+    width: 150px;
+    height: 150px;
+}
+.box1{
+    min-width:350px;
+    height: 450px;
+    /* background-color: maroon; */
+    border-radius: 20px;
+}
+.box2{
+     min-width: 350px;
+     height: 250px;
+     /* background-color:rgb(148, 89, 16); */
+     border-radius: 20px;
+     z-index:1;
+}
+aside{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.explore button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.popular{
+    display: flex;
+    gap: 40px;
+}
+p{
+    font-size: 18px;
+}
+.asideImgbox{
+    min-width: 290px;
+    height: 400px;
+    /* background-color: chocolate; */
+    border-radius: 20px;
+}
+.asideImage{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 50px;
+}
+.asidebox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.asideImgbox{
+    min-width: 290px;
+    height: 350px;
+    /* background-color: chocolate; */
+    border-radius: 20px;
+}
+main{
+    /* background-color: coral; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 20px;
+
+}
+.leftBox{
+     width: 48%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.leftimgContan{
+    display: flex;
+    flex-direction: column;
+  
+    gap: 10px;
+}
+.mainImage{
+    min-width: 550px;
+    height: 400px;
+    /* background-color:yellowgreen ; */
+    border-radius: 20px;
+}
+.rightbox{
+    width: 48%;
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.rightbox button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+.read{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.rightContant{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.rightImg{
+    min-width: 250px;
+    height: 150px;
+    /* background-color: yellow; */
+    border-radius: 20px;
+}
+.shopping,.hotels, .Travel_Budget{
+    min-width: 290px;
+    display: flex;
+    gap: 50px;
+    /* background-color: aqua  ; */
+}
+.contant{
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.shopping h2{
+    width: 70%;
+    /* background-color: beige; */
+}
+article{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+}
+.artBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.artleftBox{
+    width: 40%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.artrightBox{
+    width: 50%;
+    display: flex;
+    gap: 14px;
+    /* background-color: blueviolet; */
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.name,.videoImage_contant{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.artContant{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.artContant button{
+    width: 180px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+.P_artbutton{
+    text-align: end;
+}
+.artImage{
+    width: 50%;
+    height: 400px;
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+.videoImage{
+    min-width: 280px;
+    height: 300px;
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+footer{
+    /* background-color: darkgoldenrod; */
+    padding-top: 80px;
+}
+.footerImage{
+    height: 580px;
+    /* background-color: blue; */
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/022/673/793/small/offroad-race-on-fall-nature-background-cars-racing-in-autumn-forest-suv-or-offroad-car-on-path-covered-with-grass-crossing-puddle-with-dirt-splash-generative-ai-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+.footerImage h1{
+    font-size: 58px;
+    width: 60%;
+    text-align: center;
+}
+.emailandbutton{
+    width: 70%;
+    display: flex;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.emailbox{
+    width: 50%;
+}
+.fa-plane-up{
+    transform: rotate(30deg);
+    color: orangered;
+}
+.emailandbutton input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+}
+input::placeholder{
+    padding: 28px;
+}
+.emailandbutton button{
+    width: 150px;
+    height: 40px;
+     border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+}
+a{
+    color: white;
+}
+.footerbottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.bottomAbout{
+     display: flex;
+    flex-direction: row;
+     gap: 110px;
+}
+.trakkerBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.footercontant{
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.socialMedia{
+    display: flex;
+    gap: 8px;
+}
+.blue{
+    color: blue;
+}
+.star{
+    width: 140px;
+    height: 24px;
+}
+.socialMedia button{
+    width: 36px;
+    height:36px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    
+}
+
+.copy{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+@media screen and (min-width:300px) and (max-width:600px) {
+    .overallbox{
+    min-height: 640px;
+    
+    display: flex;
+    
+    flex-direction: column;
+    justify-content:center;
+    gap: 30px;
+    /* background-color: antiquewhite; */
+}
+
+    nav{
+        
+        /* background-color: aqua; */
+        padding:30px 10px 10px 10px;
+        /* font-size: 10px; */
+        justify-content: space-evenly;
+        gap: 9px;
+    }
+
+    
+    nav h2{
+        font-size: 14px;
+    }
+  
+    .sign{
+        gap: 6px;
+        /* font-size: 10px; */
+    }
+    .sign button{
+    width: 70px;
+    height: 26px;
+    border-radius:20px;
+    font-size: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.icon,.icon1,.arow {
+    display: none;
+}
+.menus{
+    display: inline;
+}
+    .navContant{
+        display: none;
+        gap: 0px;
+    }
+    .headContant{
+         width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+   
+    padding: 0px;
+    /* background-color: rgb(24, 104, 77); */
+    
+}
+
+header{
+    gap: 30px;
+    position: relative;
+     background-image: url("./pngwing.com\ \(6\).png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.headContant button{
+    position: absolute;
+    bottom: -500px;
+}
+.headContant h1{
+    font-size: 48px;
+}
+.headerImage{
+     width: 100%;
+    /* background-color: blueviolet; */
+    gap: 18px;
+    
+}
+.headimg{
+    gap:10px;
+}
+.icon{
+    position:absolute;
+    font-size: 16px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* bottom: -28px; */
+    transform: rotate(-80deg);
+}
+/* .arow{
+    height: 60px;
+    background-color: aqua;
+    position: absolute ;
+    left: 50px;
+    text-align:center;
+    bottom: -480px;
+    transform: rotate(-70deg);
+    display:none;
+} */
+.arow img{
+    width: 80px;
+    height: 70px;
+   
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.exploreAll{
+    position: absolute;
+   bottom: 0px;
+  
+}
+.box1{
+    min-width:130px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: maroon; */
+    border-radius: 20px;
+}
+.box2{
+     min-width: 130px;
+     height: 150px;
+     /* background-color:rgb(148, 89, 16); */
+     border-radius: 20px;
+}
+.read{
+    position: absolute;
+    text-align: center;
+    bottom: -60px;
+    /* left: 40px; */
+}
+.contant{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.place{
+    display: none;
+}
+aside{
+    padding-top: 130px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.asideImage{
+    gap: 20px;
+    
+}
+.artBox{
+    gap: 20px;
+}
+.leftBox{
+    width: 100%;
+}
+.rightbox{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+main{
+    gap: 30px;
+    /* padding-top: 50px; */
+
+}
+.rightImg{
+    width: 280px;
+   
+}
+.popular{
+    width: 100%;
+    
+    gap: 40px;
+    text-align: start;
+    /* background-color: aqua; */
+}
+.mainImage{
+    min-width: 280px;
+    height: 300px;
+}
+
+.shopping,.hotels, .Travel_Budget{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+article{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px;
+}
+.profile h2{
+    font-size: 20px;
+}
+.artleftBox{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.artrightBox{
+    width: 100%;
+    flex-direction: column;
+    /* background-color: blueviolet; */
+    gap: 26px;
+}
+article h1{
+    font-size: 28px;
+}
+.artImage{
+    
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+.P_artbutton{
+    text-align: center;
+}
+.videoImage{
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+.artContant{
+    width: 100%;
+}
+footer{
+    /* background-color: darkgoldenrod; */
+    padding-top: 0px;
+}
+
+.footerImage{
+    height: 580px;
+    /* background-color: blue; */
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/022/673/793/small/offroad-race-on-fall-nature-background-cars-racing-in-autumn-forest-suv-or-offroad-car-on-path-covered-with-grass-crossing-puddle-with-dirt-splash-generative-ai-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+.footerImage h1{
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+
+.emailandbutton{
+    width: 90%;
+    display: flex;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.emailandbutton button{
+    width: 100px;
+    height: 40px;
+    
+}
+.emailbox{
+    width: 100%;
+}
+.socialMedia {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+.searchBar{
+    display: none;
+}
+.footerbottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   gap: 40px;
+   text-align: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bottomAbout{
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+     gap: 40px;
+}
+.copy{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   justify-content: center;
+  
+}
+.copy p{
+     font-size: 14px;
+}
+
+}
+@media screen and (min-width:600px) and (max-width:900px) {
+  .overallbox{
+    min-height: 640px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* background-color: antiquewhite; */
+}
+
+    nav{
+        /* background-color: aqua; */
+        padding: 15px;
+        /* font-size: 10px; */
+        justify-content: space-around;
+        gap: 9px;
+    }
+
+    
+    nav h2{
+        font-size: 34px;
+    }
+  
+    .sign{
+        gap: 26px;
+        /* font-size: 10px; */
+    }
+    .sign button{
+    width: 70px;
+    height: 26px;
+    border-radius:20px;
+    font-size: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.menus{
+    display: inline;
+}
+.icon,.icon1,.arow {
+    display: none;
+}
+    .navContant{
+        display: none;
+        gap: 0px;
+    }
+    .headContant{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    width: 100%;
+    padding: 0px 20px;
+    /* background-color: rgb(24, 104, 77); */
+    
+}
+
+header{
+    gap: 30px;
+    position: relative;
+     background-image: url("./pngwing.com\ \(6\).png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    justify-content: center;
+    padding-top: 0px;
+    
+}
+.headContant button{
+    position: absolute;
+    bottom: -500px;
+}
+.headContant h1{
+    font-size: 38px;
+}
+.headerImage{
+     width: 100%;
+    /* background-color: blueviolet; */
+    gap: 18px;
+    
+}
+
+.box1{
+    width: 50%;
+    height: 320px;
+    
+    /* background-color: maroon; */
+    border-radius: 20px;
+}
+.box2{
+     min-width: 230px;
+     height: 150px;
+     /* background-color:rgb(148, 89, 16); */
+     border-radius: 20px;
+}
+.headimg{
+    width: 45%;
+    gap:10px;
+}
+
+.icon{
+    position:absolute;
+    font-size: 26px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* bottom: -28px; */
+    transform: rotate(-80deg);
+}
+.arow{
+    height: 60px;
+    /* background-color: aqua; */
+    position: absolute ;
+    left: 50px;
+    text-align:center;
+    bottom: -480px;
+    transform: rotate(-70deg);
+}
+.arow img{
+    width: 80px;
+    height: 70px;
+   
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.exploreAll{
+    position: absolute;
+   bottom: 0px;
+  
+}
+
+.read{
+    position: absolute;
+    text-align: center;
+    bottom: -60px;
+    /* left: 40px; */
+}
+.contant{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.place{
+    display: none;
+}
+aside{
+    padding-top: 130px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.asideImage{
+    gap: 20px;
+    
+}
+.artBox{
+    gap: 20px;
+}
+.leftBox{
+    width: 100%;
+}
+.rightbox{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+main{
+    gap: 30px;
+    /* padding-top: 50px; */
+
+}
+.rightImg{
+    width: 280px;
+   
+}
+.popular{
+    width: 100%;
+    
+    gap: 40px;
+    text-align: start;
+    /* background-color: aqua; */
+}
+.mainImage{
+    min-width: 280px;
+    height: 300px;
+}
+
+.shopping,.hotels, .Travel_Budget{
+     min-width: 290px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+article{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px;
+}
+.profile h2{
+    font-size: 20px;
+}
+.artleftBox{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.artrightBox{
+   width: 100%;
+    /* background-color: blueviolet; */
+    gap: 20px;
+}
+.videoImage_contant{
+    width: 100%;
+}
+article h1{
+    font-size: 28px;
+}
+.artImage{
+    
+    width: 80%;
+    height: 400px;
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+.P_artbutton{
+    text-align: center;
+}
+.videoImage{
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+.artContant{
+    width: 100%;
+}
+footer{
+    /* background-color: darkgoldenrod; */
+    padding-top: 30px;
+}
+.rightContant{
+   flex-wrap: wrap;
+}
+
+
+.footerImage{
+    height: 580px;
+    /* background-color: blue; */
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/022/673/793/small/offroad-race-on-fall-nature-background-cars-racing-in-autumn-forest-suv-or-offroad-car-on-path-covered-with-grass-crossing-puddle-with-dirt-splash-generative-ai-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+.footerImage h1{
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+
+.emailandbutton{
+    width: 90%;
+    display: flex;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.emailandbutton button{
+    width: 100px;
+    height: 40px;
+    
+}
+.emailbox{
+    width: 100%;
+}
+.socialMedia {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+.searchBar{
+    display: none;
+}
+.footerbottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   gap: 40px;
+   text-align: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bottomAbout{
+     display: grid;
+    /* align-items: center; */
+    grid-template-columns: auto auto;
+     gap: 40px;
+}
+.copy{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   justify-content: center;
+  
+}
+.copy p{
+     font-size: 14px;
+}
+
+}
+@media screen and (min-width:900px) and (max-width:1000px) {
+    
+.overallbox{
+    min-height: 640px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* background-color: antiquewhite; */
+}
+
+    nav{
+        /* background-color: aqua; */
+        padding: 15px;
+        /* font-size: 10px; */
+        justify-content: space-around;
+        gap: 9px;
+    }
+
+    
+    nav h2{
+        font-size: 34px;
+    }
+  
+    .sign{
+        gap: 26px;
+        /* font-size: 10px; */
+    }
+    .sign button{
+    width: 70px;
+    height: 26px;
+    border-radius:20px;
+    font-size: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.menus{
+    display: inline;
+}
+    .navContant{
+        display: none;
+        gap: 0px;
+    }
+    .headContant{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    width: 100%;
+    padding: 0px 20px;
+    /* background-color: rgb(24, 104, 77); */
+    
+}
+.icon,.icon1,.arow {
+    display: none;
+}
+
+header{
+    gap: 30px;
+    position: relative;
+     background-image: url("./pngwing.com\ \(6\).png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    justify-content: center;
+    padding-top: 0px;
+    
+}
+.headContant button{
+    position: absolute;
+    bottom: -500px;
+}
+.headContant h1{
+    font-size: 38px;
+}
+.headerImage{
+     width: 100%;
+    /* background-color: blueviolet; */
+    gap: 18px;
+    
+}
+
+.box1{
+    width: 50%;
+    height: 320px;
+    
+    /* background-color: maroon; */
+    border-radius: 20px;
+}
+.box2{
+     min-width: 230px;
+     height: 150px;
+     /* background-color:rgb(148, 89, 16); */
+     border-radius: 20px;
+}
+.headimg{
+    width: 45%;
+    gap:10px;
+}
+
+.icon{
+    position:absolute;
+    font-size: 26px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* bottom: -28px; */
+    transform: rotate(-80deg);
+}
+.arow{
+    height: 60px;
+    /* background-color: aqua; */
+    position: absolute ;
+    left: 50px;
+    text-align:center;
+    bottom: -480px;
+    transform: rotate(-70deg);
+}
+.arow img{
+    width: 80px;
+    height: 70px;
+   
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.exploreAll{
+    position: absolute;
+   bottom: 0px;
+  
+}
+
+.read{
+    position: absolute;
+    text-align: center;
+    bottom: -60px;
+    /* left: 40px; */
+}
+.contant{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.place{
+    display: none;
+}
+aside{
+    padding-top: 130px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.asideImage{
+    gap: 20px;
+    
+}
+.artBox{
+    gap: 20px;
+}
+.leftBox{
+    width: 100%;
+}
+.rightbox{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+main{
+
+    gap: 30px;
+    /* padding-top: 50px; */
+
+}
+.rightImg{
+    width: 280px;
+   
+}
+.popular{
+    width: 100%;
+    
+    gap: 40px;
+    text-align: start;
+    /* background-color: aqua; */
+}
+.mainImage{
+    min-width: 280px;
+    height: 4    00px;
+}
+
+.shopping,.hotels, .Travel_Budget{
+     min-width: 290px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+article{
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px;
+}
+.profile h2{
+    font-size: 20px;
+}
+.artleftBox{
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.artrightBox{
+   width: 100%;
+    /* background-color: blueviolet; */
+    gap: 20px;
+}
+.videoImage_contant{
+    width: 100%;
+}
+article h1{
+    font-size: 28px;
+}
+.artImage{
+    
+    width: 80%;
+    height: 400px;
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+.P_artbutton{
+    text-align: center;
+}
+.videoImage{
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+    border-radius: 20px;
+}
+.artContant{
+    width: 100%;
+}
+footer{
+    /* background-color: darkgoldenrod; */
+    padding-top: 30px;
+}
+.rightContant{
+   flex-wrap: wrap;
+}
+
+
+.footerImage{
+    height: 580px;
+    /* background-color: blue; */
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/022/673/793/small/offroad-race-on-fall-nature-background-cars-racing-in-autumn-forest-suv-or-offroad-car-on-path-covered-with-grass-crossing-puddle-with-dirt-splash-generative-ai-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+}
+.footerImage h1{
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+
+.emailandbutton{
+    width: 90%;
+    display: flex;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.emailandbutton button{
+    width: 100px;
+    height: 40px;
+    
+}
+.emailbox{
+    width: 100%;
+}
+.socialMedia {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+.searchBar{
+    display: none;
+}
+.footerbottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   gap: 40px;
+   text-align: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bottomAbout{
+     display: grid;
+    /* align-items: center; */
+    grid-template-columns: auto auto;
+     gap: 40px;
+}
+.copy{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   justify-content: center;
+  
+}
+.copy p{
+     font-size: 14px;
+}
+
+
+
+}
